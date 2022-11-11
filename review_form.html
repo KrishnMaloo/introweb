@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./ms-icon-70x70.png">
+    <title>Review form</title>
+</head>
+<body>
+    <center>
+        <h1>Reviews!</h1>
+    </center>
+    <form action="thanks.html">
+        <label>
+            <b>Name : </b>
+            <input type="text" value="enter your name" required>
+        </label>
+        <br><br>
+        <label>
+            <b>Email : </b>
+            <input type="email" value="enter your email" required>
+        </label>
+        <br><br>
+        <b>Gender : </b>
+        <label><input type="radio" name="gender" value="male" checked>Male</label>
+        <label><input type="radio" name="gender" value="female">Female</label>
+        <br><br>
+        <b>Suggestions</b>
+        <textarea name="reviews" cols="50" rows="10">What all can I improve??</textarea>
+        <br><br>
+        <b>How was your Experience with the website</b>
+        <select name="exp" required>
+            <option value="good" selected>Good</option>
+            <option value="fine">Fine</option>
+            <option value="bad">Bad</option>
+        </select>
+        <br><br>
+        <b>Click here to submit</b>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
